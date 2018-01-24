@@ -135,6 +135,13 @@ Header
   box-shadow: 0 5px 10px rgba(0,0,0,.2);
 }
 
+.btn::after {
+  content: "";
+  display: inline-block;
+  height: 100%;
+  width: 100%;
+}
+
 .btn-white {
   background-color: #fff;
   color: #777;
