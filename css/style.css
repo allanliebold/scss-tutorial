@@ -49,9 +49,14 @@ Header
   top: 40px;
   left: 40px;
 }
-
 .logo {
   height: 35px;
+  transition: 750ms;
+  opacity: .25;
+}
+.logo:hover {
+  transform: rotateY(180deg) scale(1.4, 1.4);
+  opacity: 1;
 }
 
 .text-box {
@@ -60,13 +65,11 @@ Header
   left: 50%;
   transform: translate(-50%, -50%);
 }
-
 .heading-primary {
   color: #fff;
   text-transform: uppercase;
   backface-visibility: hidden;
 }
-
 .heading-primary-main {
   display: block;
   font-size: 60px;
@@ -74,7 +77,6 @@ Header
   letter-spacing: 35px;
   animation: moveInRight 3s ease-out;
 }
-
 .heading-primary-sub {
   display: block;
   font-size: 20px;
