@@ -36,5 +36,5 @@ body {
     url("../images/hero.jpg");
   background-size: cover;
   background-position: top;
-  clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%); /* points are clockwise from top left x y */
+  clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%); /* points are clockwise from top left x y */
 }
