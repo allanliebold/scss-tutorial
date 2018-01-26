@@ -10,12 +10,12 @@ $color-tertiary: #b83b5e;
 nav {
   margin: 30px;
   background-color: $color-primary;
-}
 
-.clearfix::after {
-  content: "";
-  clear: both;
-  display: table;
+  &::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
 }
 
 .navigation {
