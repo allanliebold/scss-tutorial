@@ -19,8 +19,13 @@ nav {
     display: inline-block;
     margin-left: 30px;
 
-    &:first-child {
+    &:first-child { // same as .navigation li:first-child
       margin: 0;
+    }
+
+    a { // same as .navigation li a
+      text-decoration: none;
+      text-transform: uppercase;
     }
   }
 }
