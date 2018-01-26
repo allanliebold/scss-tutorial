@@ -36,3 +36,17 @@ nav {
     }
   }
 }
+
+.buttons {
+  float: right;
+}
+
+.btn-main:link,
+.btn-hot:link {
+  padding: 10px;
+  display: inline-block;
+  text-align: center;
+  border-radius: 100px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
