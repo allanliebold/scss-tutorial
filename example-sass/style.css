@@ -3,10 +3,17 @@
   padding: 0;
 }
 
+// Variables
+// -- Colors --
 $color-primary: #f9ed69;
 $color-secondary: #f08a5d;
 $color-tertiary: #b83b5e;
 
+// -- Sizes --
+$width-button: 150px;
+
+// Styles
+// -- Nav --
 nav {
   margin: 30px;
   background-color: $color-primary;
@@ -37,6 +44,7 @@ nav {
   }
 }
 
+// -- Buttons --
 .buttons {
   float: right;
 }
@@ -49,4 +57,14 @@ nav {
   border-radius: 100px;
   text-decoration: none;
   text-transform: uppercase;
+  width: %width-button;
+}
+
+.btn-main {
+  &:link {
+    background-color: $color-secondary;
+  }
+  &:hover {
+    background-color: darken(%color-secondary);
+  }
 }
