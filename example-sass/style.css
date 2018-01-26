@@ -12,8 +12,13 @@ nav {
   background-color: $color-primary;
 }
 
+.clearfix::after {
+  content: "";
+}
+
 .navigation {
   list-style: none;
+  float: left;
 
   li {
     display: inline-block;
