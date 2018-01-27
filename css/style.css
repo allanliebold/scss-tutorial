@@ -88,7 +88,7 @@ Header
   display: block;
   font-size: 2rem;
   font-weight: 700;
-  letter-spacing: 17.5px;
+  letter-spacing: 1.75rem;
   animation: moveInLeft 3s ease-out;
 }
 
@@ -97,19 +97,19 @@ Header
   display: inline-block;
   text-transform: uppercase;
   text-decoration: none;
-  padding: 15px 40px;
-  border-radius: 100px;
+  padding: 1.5rem 4rem;
+  border-radius: 10rem;
   transition: all .2s;
   position: relative;
 }
 
 .btn:hover {
-  transform: translateY(-3px);
+  transform: translateY(-.3rem);
   box-shadow: 0 10px 20px rgba(0,0,0,.2);
 }
 
 .btn:active {
-  transform: translateY(-1px);
+  transform: translateY(-.1rem);
   box-shadow: 0 5px 10px rgba(0,0,0,.2);
 }
 
@@ -118,7 +118,7 @@ Header
   display: inline-block;
   height: 100%;
   width: 100%;
-  border-radius: 100px;
+  border-radius: 10rem;
   position: absolute;
   top: 0;
   left: 0;
@@ -147,7 +147,7 @@ Animations
 @keyframes moveInLeft {
   0% {
     opacity: 0;
-    transform: translateX(-100px);
+    transform: translateX(-10rem);
   }
   25% {
     opacity: 0;
@@ -160,7 +160,7 @@ Animations
 @keyframes moveInRight {
   0% {
     opacity: 0;
-    transform: translateX(100px);
+    transform: translateX(10rem);
   }
   10% {
     opacity: 0;
