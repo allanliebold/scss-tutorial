@@ -26,7 +26,7 @@ Basic Styles
 body {
   font-family: "Lato", sans-serif;
   font-weight: 400;
-  font-size: 16px;
+  font-size: 1.6rem;
   line-height: 1.7;
   color: #777;
   padding: 3rem; /* converted from 30px */
@@ -75,18 +75,18 @@ Header
   color: #fff;
   text-transform: uppercase;
   backface-visibility: hidden;
-  margin-bottom: 60px;
+  margin-bottom: 6rem;
 }
 .heading-primary-main {
   display: block;
-  font-size: 60px;
+  font-size: 6rem;
   font-weight: 700;
-  letter-spacing: 35px;
+  letter-spacing: 3.5rem;
   animation: moveInRight 3s ease-out;
 }
 .heading-primary-sub {
   display: block;
-  font-size: 20px;
+  font-size: 2rem;
   font-weight: 700;
   letter-spacing: 17.5px;
   animation: moveInLeft 3s ease-out;
