@@ -9,6 +9,9 @@ $color-primary: #f9ed69;
 $color-secondary: #f08a5d;
 $color-tertiary: #b83b5e;
 
+$color-text-dark: #333;
+$color-text-light: #eee;
+
 // -- Sizes --
 $width-button: 150px;
 
@@ -21,10 +24,10 @@ $width-button: 150px;
   }
 }
 
-@mixin style-link-text {
+@mixin style-link-text($color) {
   text-decoration: none;
   text-transform: uppercase;
-  color: $color-text-light;
+  color: $color;
 }
 
 // Styles
@@ -48,7 +51,7 @@ nav {
     }
 
     a:link { // same as .navigation li a
-      @include style-link-text;
+      @include style-link-text($color-text-dark);
     }
   }
 }
@@ -65,7 +68,7 @@ nav {
   text-align: center;
   border-radius: 100px;
   width: $width-button;
-  @include style-link-text;
+  @include style-link-text($color-text-light);
 }
 
 .btn-main {
