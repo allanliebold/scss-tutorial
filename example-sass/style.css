@@ -26,12 +26,7 @@ $width-button: 150px;
 nav {
   margin: 30px;
   background-color: $color-primary;
-
-  &::after {
-    content: "";
-    clear: both;
-    display: table;
-  }
+  @include clearfix;
 }
 
 .navigation {
