@@ -21,6 +21,12 @@ $width-button: 150px;
   }
 }
 
+@mixin style-link-text {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: $color-text-light;
+}
+
 // Styles
 // -- Nav --
 nav {
