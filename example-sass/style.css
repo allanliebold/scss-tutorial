@@ -47,9 +47,8 @@ nav {
       margin: 0;
     }
 
-    a { // same as .navigation li a
-      text-decoration: none;
-      text-transform: uppercase;
+    a:link { // same as .navigation li a
+      @include style-link-text;
     }
   }
 }
@@ -65,9 +64,8 @@ nav {
   display: inline-block;
   text-align: center;
   border-radius: 100px;
-  text-decoration: none;
-  text-transform: uppercase;
-  width: %width-button;
+  width: $width-button;
+  @include style-link-text;
 }
 
 .btn-main {
