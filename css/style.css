@@ -8,7 +8,7 @@ Reset
 }
 
 html {
-  font-size: 10px;
+  font-size: 62.5%; /* Browser default is 16px. 10px is 62.5% of 16. */
 }
 
 /**********
@@ -105,12 +105,12 @@ Header
 
 .btn:hover {
   transform: translateY(-.3rem);
-  box-shadow: 0 10px 20px rgba(0,0,0,.2);
+  box-shadow: 0 1rem 2rem rgba(0,0,0,.2);
 }
 
 .btn:active {
   transform: translateY(-.1rem);
-  box-shadow: 0 5px 10px rgba(0,0,0,.2);
+  box-shadow: 0 .5rem 1rem rgba(0,0,0,.2);
 }
 
 .btn::after {
