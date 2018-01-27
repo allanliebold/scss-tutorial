@@ -12,6 +12,15 @@ $color-tertiary: #b83b5e;
 // -- Sizes --
 $width-button: 150px;
 
+// - Mixins --
+@mixin clearfix {
+  &::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+}
+
 // Styles
 // -- Nav --
 nav {
