@@ -7,6 +7,10 @@ Reset
   box-sizing: border-box;
 }
 
+html {
+  font-size: 10px;
+}
+
 /**********
 Colors
 **********/
@@ -88,33 +92,6 @@ Header
   animation: moveInLeft 3s ease-out;
 }
 
-@keyframes moveInLeft {
-  0% {
-    opacity: 0;
-    transform: translateX(-100px);
-  }
-  25% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-    transform: translate(0);
-  }
-}
-@keyframes moveInRight {
-  0% {
-    opacity: 0;
-    transform: translateX(100px);
-  }
-  10% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-    transform: translate(0);
-  }
-}
-
 .btn:link,
 .btn:visited {
   display: inline-block;
@@ -146,6 +123,13 @@ Header
   top: 0;
   left: 0;
   z-index: -1;
+  opacity: .5;
+  transition: all .4s;
+}
+
+.btn:hover::after {
+    transform: scaleX(1.4) scaleY(1.6);
+    opacity: 0;
 }
 
 .btn-white {
@@ -155,4 +139,34 @@ Header
 
 .btn-white::after {
   background-color: #fff;
+}
+
+/**********
+Animations
+**********/
+@keyframes moveInLeft {
+  0% {
+    opacity: 0;
+    transform: translateX(-100px);
+  }
+  25% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+    transform: translate(0);
+  }
+}
+@keyframes moveInRight {
+  0% {
+    opacity: 0;
+    transform: translateX(100px);
+  }
+  10% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+    transform: translate(0);
+  }
 }
