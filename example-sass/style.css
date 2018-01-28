@@ -24,10 +24,10 @@ $width-button: 150px;
   }
 }
 
-@mixin style-link-text($color) {
+@mixin style-link-text($col) {
   text-decoration: none;
   text-transform: uppercase;
-  color: $color;
+  color: $col;
 }
 
 // Styles
