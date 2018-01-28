@@ -30,6 +30,10 @@ $width-button: 150px;
   color: $col;
 }
 
+@function divide($a, $b) {
+  @return $a / $b;
+}
+
 // Styles
 // -- Nav --
 nav {
