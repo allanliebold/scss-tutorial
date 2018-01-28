@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/allanliebold/scss-tutorial/issues"
   },
-  "homepage": "https://github.com/allanliebold/scss-tutorial#readme"
+  "homepage": "https://github.com/allanliebold/scss-tutorial#readme",
+  "devDependencies": {
+    "node-sass": "^4.7.2"
+  }
 }
