@@ -49,29 +49,31 @@ Header
   background-position: top;
   clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%); /* points are clockwise from top left x y */
   position: relative;
-}
 
-.header__logo-box {
-  position: absolute;
-  top: 4rem;
-  left: 4rem;
-}
-.header__logo {
-  height: 3.5rem;
-  transition: 750ms;
-  opacity: .25;
-}
-.header__logo:hover {
-  transform: rotateY(180deg) scale(1.4, 1.4);
-  opacity: 1;
-}
+  &__logo-box {
+    position: absolute;
+    top: 4rem;
+    left: 4rem;
+  }
 
-.header__text-box {
-  position: absolute;
-  top: 40%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  text-align: center;
+  &__logo {
+    height: 3.5rem;
+    transition: 750ms;
+    opacity: .25;
+  }
+
+  &__logo:hover{
+    transform: rotateY(180deg) scale(1.4, 1.4);
+    opacity: 1;
+  }
+
+  &__text-box {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
 }
 
 .heading-primary {
