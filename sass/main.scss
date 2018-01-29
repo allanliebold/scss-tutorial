@@ -114,6 +114,10 @@ Header
   &:hover {
     transform: translateY(-.3rem);
     box-shadow: 0 1rem 2rem rgba($color-black,.2);
+    &::after {
+      transform: scaleX(1.4) scaleY(1.6);
+      opacity: 0;
+    }
   }
 
   &:active {
@@ -135,18 +139,12 @@ Header
     transition: all .4s;
   }
 
-  &:hover::after {
-    transform: scaleX(1.4) scaleY(1.6);
-    opacity: 0;
-  }
-
   &--white {
     background-color: $color-white;
     color: $color-grey-dark;
-  }
-
-  &--white::after {
-    background-color: $color-white;
+    &::after {
+      background-color: $color-white;
+    }
   }
 }
 
