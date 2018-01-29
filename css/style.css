@@ -59,7 +59,7 @@ Header
   text-align: center; }
 
 .heading-primary {
-  color: red;
+  color: #fff;
   text-transform: uppercase;
   backface-visibility: hidden;
   margin-bottom: 6rem; }
@@ -114,11 +114,11 @@ Header
   opacity: 0; }
 
 .btn--white {
-  background-color: red;
+  background-color: #fff;
   color: #777; }
 
 .btn--white::after {
-  background-color: red; }
+  background-color: #fff; }
 
 /**********
 Animations
