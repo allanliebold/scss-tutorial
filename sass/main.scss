@@ -1,6 +1,5 @@
-/**********
-Reset
-**********/
+@import "base/base"
+
 *,
 *::after,
 *::before {
@@ -97,7 +96,7 @@ Header
     letter-spacing: 1.75rem;
     animation: moveInLeft 3s ease-out;
   }
-}
+}se
 
 .btn {
   &:link,
