@@ -134,6 +134,15 @@ body {
   .btn--white::after {
     background-color: #fff; }
 
+.btn-text:link, .btn-text:visited {
+  color: #55c57a;
+  display: inline-block;
+  text-decoration: none; }
+
+.btn-text:hover {
+  background-color: #55c57a;
+  color: #fff; }
+
 .row {
   max-width: 114rem;
   margin: 0 auto; }

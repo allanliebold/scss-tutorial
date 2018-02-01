@@ -46,3 +46,20 @@
     }
   }
 }
+
+.btn-text {
+  &:link,
+  &:visited {
+    color: $color-primary;
+    display: inline-block;
+    text-decoration: none;
+  }
+
+  &:hover {
+    background-color: $color-primary;
+    color: $color-white;
+  }
+  &:active {
+
+  }
+}
