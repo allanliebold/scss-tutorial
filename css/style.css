@@ -191,7 +191,7 @@ body {
 .row {
   max-width: 114rem;
   margin: 0 auto;
-  margin-bottom: 30rem; }
+  margin-bottom: 25rem; }
   .row:not(:last-child) {
     margin-bottom: 6rem; }
   .row::after {
