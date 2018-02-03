@@ -201,7 +201,7 @@ body {
 .row {
   max-width: 114rem;
   margin: 0 auto;
-  margin-bottom: 25rem; }
+  margin-bottom: 28rem; }
   .row:not(:last-child) {
     margin-bottom: 6rem; }
   .row::after {
@@ -252,11 +252,12 @@ body {
 
 .section-about {
   margin-top: -20vh;
-  background-color: #f7f7f7;
+  background-color: #a7a7a7;
   padding: 25rem 0; }
 
 .section-features {
   padding: 20rem 0;
+  margin-top: -8rem;
   background-image: linear-gradient(to right bottom, rgba(126, 213, 111, 0.8), rgba(40, 180, 133, 0.8)), url(../images/nat-4.jpg);
   background-size: cover;
   transform: skewY(-7deg); }
