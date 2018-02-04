@@ -5,7 +5,7 @@
   height: 50rem;
 
   &__side {
-    background-color: orangered;
+    background-color: #fff;
     color: #fff;
     font-size: 2rem;
     height: 50rem;
@@ -16,14 +16,14 @@
     top: 0;
     left: 0;
 
-    transition: all .8s;
+    transition: all .8s ease;
 
     &--front {
-      background-color: orangered;
+      background-color: $color-white;
     }
 
     &--back {
-      background-color: green;
+      background-color: orange;
       transform: rotateY(180deg);
     }
   }
