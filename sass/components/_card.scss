@@ -49,6 +49,8 @@
   }
 
   &__picture {
+    background-size: cover;
+    height: 23rem;
 
     &--1 {
       background-image: url(../images/nat-5.jpg);
