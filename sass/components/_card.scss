@@ -54,5 +54,13 @@
       background-image: url(../images/nat-5.jpg);
 // Move back only one directory because this will be in style.css after being compiled
     }
+
+    &--2 {
+      background-image: url(../images/nat-6.jpg);
+    }
+
+    &--3 {
+      background-image: url(../images/nat-7.jpg);
+    }
   }
 }
