@@ -51,18 +51,19 @@
   &__picture {
     background-size: cover;
     height: 23rem;
+    background-blend-mode: screen;
 
     &--1 {
-      background-image: url(../images/nat-5.jpg);
+      background-image: linear-gradient(to right bottom, $color-secondary-light, $color-secondary-dark), url(../images/nat-5.jpg);
 // Move back only one directory because this will be in style.css after being compiled
     }
 
     &--2 {
-      background-image: url(../images/nat-6.jpg);
+      background-image: linear-gradient(to right bottom, $color-primary-light, $color-primary-dark), url(../images/nat-6.jpg);
     }
 
     &--3 {
-      background-image: url(../images/nat-7.jpg);
+      background-image: linear-gradient(to right bottom, $color-tertiary-light, $color-tertiary-dark), url(../images/nat-7.jpg);
     }
   }
 }
