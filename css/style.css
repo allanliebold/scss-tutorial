@@ -237,6 +237,7 @@ body {
     transform: translate(-50%, -50%); }
   .card__price-box {
     text-align: center;
+    color: #fff;
     margin-bottom: 8rem; }
   .card__price-header {
     font-size: 1.4rem;
