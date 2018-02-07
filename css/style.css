@@ -96,6 +96,9 @@ body {
 .u-margin-bottom-big {
   margin-bottom: 8rem !important; }
 
+.u-margin-top {
+  margin-top: 8rem; }
+
 .btn:link, .btn:visited {
   display: inline-block;
   text-transform: uppercase;
