@@ -102,12 +102,6 @@ body {
 .u-margin-top-big {
   margin-top: 10rem !important; }
 
-.u-padding {
-  background-color: blue;
-  width: 10rem;
-  height: 5rem;
-  display: block; }
-
 .btn:link, .btn:visited {
   display: inline-block;
   text-transform: uppercase;
