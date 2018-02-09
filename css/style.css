@@ -314,7 +314,8 @@ body {
   background-color: #fff;
   border-radius: 3px;
   padding: 6rem;
-  font-size: 1.6rem; }
+  font-size: 1.6rem;
+  transform: skewX(12deg); }
   .story__shape {
     width: 15rem;
     height: 15rem;
