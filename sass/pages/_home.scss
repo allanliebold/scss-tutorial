@@ -27,6 +27,16 @@
 }
 
 .section-stories {
-  padding: 15rem;
+  padding: 15rem 0;
   position: relative;
+}
+
+.section-book {
+  padding: 15rem 0;
+  background-image: linear-gradient(to right bottom, $color-primary-light, $color-primary-dark);
+}
+
+.book {
+  background-image: url(../images/nat-10.jpg);
+  background-size: cover;
 }
