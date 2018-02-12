@@ -97,9 +97,18 @@
     &::before,
     &::after {
       content: "";
+      transition: all .2s;
     }
 
     &::before { top: -.8rem; }
     &::after { top: 1rem; }
+  }
+
+  &__button:hover &__icon::before {
+    top: -1rem;
+  }
+
+  &__button:hover &__icon::after {
+    top: 1.2rem;
   }
 }
