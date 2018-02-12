@@ -91,16 +91,15 @@
       height: 2px;
       background-color: $color-grey-dark-3;
       display: inline-block;
+      @include center-h-v;
     }
 
     &::before,
     &::after {
       content: "";
-      position: absolute;
-      left: 0;
     }
 
-    &::before { top: -1rem; }
-    &::after { top: 1rem; }
+    &::before { top: -.8rem; }
+    &::after { top: .8rem; }
   }
 }
