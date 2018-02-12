@@ -24,7 +24,7 @@
     right: 6.5rem;
     background-image: radial-gradient($color-primary-light, $color-primary-dark);
     z-index: 100;
-    // transform: scale(80);
+    transition: transform .8s;
   }
 
   &__nav {
