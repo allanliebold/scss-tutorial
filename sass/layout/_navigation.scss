@@ -82,6 +82,8 @@
   }
 
   &__icon {
+    position: relative;
+
     &,
     &::before,
     &::after {
@@ -94,6 +96,11 @@
     &::before,
     &::after {
       content: "";
+      position: absolute;
+      left: 0;
     }
+
+    &::before { top: -1rem; }
+    &::after { top: 1rem; }
   }
 }
