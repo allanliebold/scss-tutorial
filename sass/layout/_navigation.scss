@@ -69,4 +69,8 @@
       color: $color-primary;
     }
   }
+
+  &__checkbox:checked ~ &__background {
+    transform: scale(80);
+  }
 }

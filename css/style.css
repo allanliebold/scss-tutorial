@@ -594,6 +594,9 @@ body {
   background-position: 100%;
   color: #55c57a; }
 
+.navigation__checkbox:checked ~ .navigation__background {
+  transform: scale(80); }
+
 .section-about {
   margin-top: -35vh;
   background-color: #e7e7e7;
