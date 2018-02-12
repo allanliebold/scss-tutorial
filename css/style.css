@@ -545,6 +545,7 @@ body {
   position: fixed;
   top: 6rem;
   right: 6rem;
+  box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.1);
   z-index: 102; }
 
 .navigation__background {
