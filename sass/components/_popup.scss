@@ -1,7 +1,9 @@
 .popup {
+  position: fixed;
   background-color: $color-white;
-  height: 80vh;
-  width: 70%;
-  top: 30%;
-  left: 30%;
+  height: 75vh;
+  width: 80%;
+  top: 8rem;
+  left: 9rem;
+  z-index: 103;
 }
