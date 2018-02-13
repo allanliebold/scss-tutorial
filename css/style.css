@@ -629,6 +629,9 @@ body {
 .navigation__button:hover .navigation__icon::after {
   top: 1.2rem; }
 
+.navigation__checkbox:checked + .navigation__button .navigation__icon {
+  background-color: transparent; }
+
 .section-about {
   margin-top: -35vh;
   background-color: #e7e7e7;
