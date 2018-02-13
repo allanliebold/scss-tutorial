@@ -399,11 +399,11 @@ body {
 
 .popup {
   position: fixed;
-  background-color: #fff;
-  height: 75vh;
-  width: 80%;
-  top: 8rem;
-  left: 9rem;
+  background-color: rgba(0, 0, 0, 0.8);
+  height: 100vh;
+  width: 100%;
+  top: 0;
+  left: 0;
   z-index: 103; }
 
 .story {
