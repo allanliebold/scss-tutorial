@@ -422,7 +422,8 @@ body {
   .popup__right {
     width: 66.666666%;
     float: left;
-    display: table-cell; }
+    display: table-cell;
+    vertical-align: middle; }
   .popup__image {
     display: block;
     width: 100%; }
