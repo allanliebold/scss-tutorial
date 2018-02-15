@@ -9,6 +9,10 @@
   opacity: 0;
   visibility: hidden;
 
+  &:target {
+    
+  }
+
   &__content {
     @include center;
 
