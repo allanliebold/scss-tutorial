@@ -431,7 +431,12 @@ body {
     width: 100%; }
   .popup__text {
     font-size: 1.4rem;
-    margin-bottom: 4rem; }
+    margin-bottom: 4rem;
+    column-count: 2;
+    column-gap: 4rem;
+    margin-top: 2rem;
+    column-rule: 1px solid #999;
+    hyphens: auto; }
 
 .story {
   width: 75%;

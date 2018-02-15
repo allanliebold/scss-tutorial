@@ -40,5 +40,10 @@
   &__text {
     font-size: 1.4rem;
     margin-bottom: 4rem;
+    column-count: 2;
+    column-gap: 4rem;
+    margin-top: 2rem;
+    column-rule: 1px solid $color-grey-dark-2;
+    hyphens: auto;
   }
 }
