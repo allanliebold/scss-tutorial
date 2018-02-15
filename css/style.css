@@ -407,6 +407,9 @@ body {
   z-index: 103;
   opacity: 0;
   visibility: hidden; }
+  .popup:target {
+    opacity: 1;
+    visibility: visible; }
   .popup__content {
     position: absolute;
     top: 50%;
