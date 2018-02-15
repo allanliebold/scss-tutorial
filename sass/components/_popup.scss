@@ -25,6 +25,11 @@
       font-size: 3rem;
       text-decoration: none;
       display: inline-block;
+      transition: all .2s;
+    }
+
+    :hover {
+      color: $color-primary;
     }
   }
 
