@@ -33,3 +33,9 @@ $breakpoint argument choices:
 -tab-land
 -big-desk
 */
+
+@mixin respond($breakpoint) {
+  @if $breakpoint == phone {
+
+  }
+}
