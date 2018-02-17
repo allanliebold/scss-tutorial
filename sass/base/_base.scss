@@ -9,10 +9,6 @@
 html {
   font-size: 62.5%; /* Browser default is 16px. 10px is 62.5% of 16. */
 
-  @media (max-width: 600px) {
-    font-size: 50%;
-  }
-
   @include respond-phone {
       font-size: 50%;
   }
