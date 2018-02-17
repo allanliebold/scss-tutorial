@@ -25,3 +25,11 @@
 @mixin respond-phone {
   @media (max-width: 600px) { @content };
 }
+
+/*
+$breakpoint argument choices:
+-phone
+-tab-port
+-tab-land
+-big-desk
+*/
