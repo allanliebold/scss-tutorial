@@ -594,6 +594,9 @@ body {
   margin-bottom: 28rem; }
   .row:not(:last-child) {
     margin-bottom: 8rem; }
+    @media (max-width: 56.25em) {
+      .row:not(:last-child) {
+        margin-right: 6rem; } }
   .row::after {
     content: "";
     clear: both; }
@@ -628,6 +631,10 @@ body {
   clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
   /* points are clockwise from top left x y */
   position: relative; }
+  @media (max-width: 37.5em) {
+    .header {
+      -webkit-clip-path: polygon(0 0, 100% 0, 100% 90vh, 0 100%);
+      clip-path: polygon(0 0, 100% 0, 100% 90vh, 0 100%); } }
   .header__logo-box {
     position: absolute;
     top: 4rem;
