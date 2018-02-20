@@ -163,27 +163,19 @@
 
     &__cta {
       position: relative;
-      top: 50%;
-      left: 50%;
-      width: 90%;
-      text-align:center;
-      transform: translate(-50%, -50%);
+      top: 0%;
+      left: 0%;
+      width: 100%;
+      transform: translate(0);
+      padding: 4rem;
     }
 
     &__price-box {
-      text-align: center;
-      color: $color-white;
-      margin-bottom: 8rem;
-    }
-
-    &__price-header {
-      font-size: 1.4rem;
-      text-transform: uppercase;
+      margin-bottom: 3rem;
     }
 
     &__price-value {
       font-size: 6rem;
-      font-weight: 100;
     }
 
   }
