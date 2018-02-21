@@ -25,11 +25,12 @@
     clip-path: circle(50% at 50% 50%);
     transform: translateX(-3rem) skewX(12deg);
     position: relative;
+
+    @include respond(phone) {
+      transform: translateX(-3rem) skewX(0);
+    }
   }
 
-  @include respond(phone) {
-    transform: translateX(-3rem) skewX(0);
-  }
 
   &__image {
     height:100%;
@@ -40,6 +41,10 @@
 
   &__text {
     transform: skewX(12deg);
+
+    @include respond(phone) {
+      transform: translateX(-3rem) skewX(0);
+    }
   }
 
   &__caption {
